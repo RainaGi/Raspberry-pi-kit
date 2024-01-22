@@ -1,0 +1,230 @@
+.title {
+    color:#BF3131;
+    font-family: 'Dancing Script', cursive;
+}
+
+.myButton {
+	box-shadow:inset 20px 33px 7px -20px #e67a73;
+	background-color:#e4685d;
+	border-radius:22px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Times New Roman;
+	font-size:21px;
+	font-weight:bold;
+	padding:12px 10px;
+	text-decoration:none;
+	text-shadow:4px 4px 1px #b23e35;
+}
+.myButton:hover {
+	background-color:#eb675e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.raspberry-image {
+    background-color: #ffffff;
+    border-radius: 100%;
+}
+
+.introduction{
+    background: linear-gradient(300deg, #D80032, #FF6666, #7D0A0A );
+    background-size: 180% 180%;
+    animation: introduction 5s ease infinite;
+}
+
+@keyframes introduction {
+    0% {
+      background-position: 5% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .info-para{
+    color: #ffffff;
+    margin-left: 3rem;
+  }
+
+  .main-buttons{
+    margin-left: 3rem;
+  }
+  
+
+  .price-tag{
+    margin-left: 45rem;
+    position: relative;
+    z-index: 0;
+  }
+
+  .price{
+    color: #ffffff;
+    font-size: 2rem;
+    position: relative;
+    top: 8rem;
+    left: 4rem;
+    z-index: 1;
+  }
+
+  .features {
+    padding: 10% 15%;
+  }
+
+  .feature-text{
+    color: #D80032;
+    font-size: 1.25rem;
+  }
+
+  .fw-bold, .fw-semibold, .about-heading, .about-text{
+    font-family: 'Satisfy', cursive;
+  }
+
+  .fw-bold{
+    font-size: 2.5rem;
+  }
+
+  .fw-semibold{
+    font-size: 1.5rem;
+  }
+
+  .pricing{
+    background-color: #FF6666;
+    padding: 7% 15%;
+  }
+
+  .feature-list{
+      list-style-type: none;
+  }
+
+  .spacing{
+    display:inline-block;
+  }
+
+  .custom-cards{
+    background-color: #FF6666;
+  }
+
+
+  .about-text{
+    border-radius: 20%;
+    border-color: white;
+  }
+
+  .about-text3{
+    margin-top: 145px;
+  }
+
+  .about-text5{
+    margin-top: 115px;
+  }
+
+.carousel{
+  background-color: #FF6666;
+  padding: 7% 10%;
+}
+
+.heading1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-left:0.5rem;
+}
+
+.heading2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin-left:0.5rem;
+}
+
+.bhavishya, .anya, .emma{
+  background-color: #ffffff;
+  
+  border-radius: 100%;
+  height: 5rem;
+  width: 5rem;
+  margin-right: 0.5rem;
+}
+
+
+
+.myButton1 {
+	box-shadow:inset 22px 37px 4px -28px #e67a73;
+	background-color:#ff6666;
+	border-radius:14px;
+	border:2px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Times New Roman;
+	font-size:19px;
+	font-weight:bold;
+	padding:13px 10px;
+	text-decoration:none;
+	text-shadow:6px 5px 2px #b23e35;
+	&:hover {
+	background-color:#eb675e;
+}
+ &:active {
+	position:relative;
+	top:1px;
+}
+ }
+
+
+
+ table {
+  border-left: transparent;
+  border-right: transparent;
+  border-collapse:collapse;
+  margin-left:20%;
+  background: #ff6666;
+}
+table th {
+  border:3px solid #ffffff;
+  padding:10px;
+  background: #ff6666;
+  color: #ffffff;
+}
+table td {
+  border:2px solid #ffffff;
+  border-right: transparent;
+  text-align:center;
+  padding:10px;
+  background: #ff6666;
+  color: #ffffff;
+}
+
+.table{
+  background-color: #ff6666;
+  padding: 7% 0;
+}
+
+
+.remove-left-border{
+  border-left:transparent;
+}
+
+.remove-right-border{
+  border-right:transparent;
+}
+
+
+.raspberry-contact-image{
+  background-color: #ff6666;
+  border-radius: 100%;
+}
+
+
+.contact-footer{
+  background-color: #ffffff;
+}
+     
